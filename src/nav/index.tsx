@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <SafeAreaView style={{flex: 1}}>
        <NavigationContainer>
-         <DrawerScreen></DrawerScreen>
+         <TabScreen></TabScreen>
        </NavigationContainer>
     </SafeAreaView>
   );
