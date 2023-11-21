@@ -6,9 +6,9 @@ import ScreenC from "../views/ScreenC";
 const Drawer = createDrawerNavigator();
 
 
-export default function DrawerScreen(props: any) {
+export default function DrawerScreen() {
   return (
-    <Drawer.Navigator>
+    <Drawer.Navigator initialRouteName={"ScreenA"}>
       <Drawer.Screen name={"ScreenA"} component={ScreenA}></Drawer.Screen>
       <Drawer.Screen name={"ScreenB"} component={ScreenB}></Drawer.Screen>
       <Drawer.Screen name={"ScreenC"} component={ScreenC}></Drawer.Screen>
